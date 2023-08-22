@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Noto+Sans+JP:wght@300;400;500;700&family=Outfit:wght@300;500;600;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+
+
+</head>
+<body>
+<div class="card">
+  <div class="result">
+    <h1>Your Result</h1>
+    <div class="circle">
+      <h1>76</h1>
+      <p>of 100</p>
+    </div>
+    <h3><b>Great</b></h3>
+    <p>You scored higher than 65% of the people
+    who have taken these tests.</p>
+  </div>
+  <div class="summary" >
+    <h1>Summary</h1>
+    <div class="rows">
+      <div id ="reaction" class="row">
+        <div class="badge">
+        <img src="assets/images/icon-reaction.svg">
+        <span><b>Reaction</b></span>
+        </div>
+        <div>
+          <b> <span class="oran"> 72 </span> / 100 </b>
+        </div>
+      </div>
+      <div id ="memory" class="row">
+        <div class="badge">
+          <img src="assets/images/icon-memory.svg">
+          <span><b>Memory</b></span>
+        </div>
+        <div>
+          <b> <span class="oran"> 72 </span> / 100 </b>
+        </div>
+      </div>
+      <div id ="verbal" class="row">
+        <div class="badge">
+          <img src="assets/images/icon-verbal.svg">
+          <span><b>Verbal</b></span>
+        </div>
+        <div>
+          <b> <span class="oran"> 72 </span> / 100 </b>
+        </div>
+      </div>
+      <div id ="visual" class="row">
+        <div class="badge">
+          <img src="assets/images/icon-visual.svg">
+          <span><b>Visual</b></span>
+        </div>
+        <div>
+         <b> <span class="oran"> 72 </span> / 100 </b>
+        </div>
+      </div>
+    </div>
+    <button>Continue</button>
+  </div>
+</div>
+</body>
+</html>

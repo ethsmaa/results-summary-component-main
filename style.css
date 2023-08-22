@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+
+body {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    width: 550px;
+    height: 400px;
+    flex-direction: row;
+    border-radius: 20px;
+    -webkit-box-shadow: 7px 10px 52px -15px rgba(167,179,232,1);
+}
+
+.result {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+    gap: 1rem;
+    font-size: 18px;
+    padding: 1.5rem 2rem;
+}
+
+
+.result h1 {
+    color: hsl(241, 100%, 89%);
+    font-size: 18px;
+}
+
+.circle {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+
+.circle h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.result h3 {
+    font-size: 25px;
+    color: white;
+}
+
+.result p {
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+    font-size: 15px;
+    padding-bottom: 10px;
+    color: hsl(241, 100%, 89%);
+
+}
+
+.summary {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 2rem;
+    justify-content: space-around;
+    font-size: 14px;
+    color : #999998;
+}
+
+
+
+.summary h1 {
+    font-size: 18px;
+    color: black;
+}
+
+.summary .rows {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    padding-bottom: 15px;
+
+}
+
+.summary .oran {
+    color :black;
+}
+
+
+.summary .row {
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.summary .row .badge {
+    display: flex;
+    align-items: center;
+    gap : .5rem
+}
+
+
+
+
+#reaction {
+    background-color: hsl(0, 100%, 67%, .1);
+
+}
+
+#reaction .badge {
+    color: hsl(0, 100%, 67%);
+    display: flex;
+    justify-content: space-between;
+}
+
+#memory {
+    background-color: hsl(39, 100%, 56%, .1);
+}
+
+#memory .badge {
+    color: hsl(39, 100%, 56%);
+}
+
+#verbal {
+    background-color: hsl(166, 100%, 37% , .1
+    );
+}
+
+#verbal .badge {
+    color: hsl(166, 100%, 37%);
+}
+
+#visual {
+    background-color: hsl(241, 100%, 89% ,.2);
+}
+
+
+#visual .badge {
+    color: hsl(234, 85%, 45%);
+}
+button {
+    border: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+}
+
+
+button:hover{
+    border: none;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
